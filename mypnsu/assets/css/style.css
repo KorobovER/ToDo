@@ -1,0 +1,178 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    outline: none;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 300
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: #ffbd5f;
+    height: 60px;
+}
+
+.header_menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.logo {
+    width: 150px;
+    line-height: 50px;
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.header_create {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+input {
+    height: 35px;
+    width: 350px;
+}
+
+.header_btn {
+    background-color: #ff6602;
+    border: 1px solid #ffb254;
+    color: #fff;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 15px;
+    font-size: 12px;
+    height: 40px;
+    outline: none;
+}
+
+.header_btn:hover {
+    background-color: #ffb779;
+    border-color: #ffb779;
+}
+
+.block_task {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.container_task {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+}
+
+.create_task {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.title_block {
+    text-align: right;
+    font-size: 32px;
+}
+
+.btn_block {
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    background-color: coral;
+    border: 1px solid coral;
+    color: #fff;
+    font-size: 12px;
+    height: 40px;
+    width: 30px;
+    margin-left: 15px
+}
+.btn_block:hover{
+    background-color: #fca687;
+    border: 1px solid #fca687;
+}
+
+.title_task {
+    height: 32px;
+    margin-top: 25px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.edit_input {
+    margin-top: 20px;
+}
+
+.del-btn-task {
+    background-color: coral;
+    border: 1px solid coral;
+    color: #fff;
+    font-size: 12px;
+    width: 30px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.del-btn-task:hover{
+    background-color: #fca687;
+    border: 1px solid #fca687;
+}
+.use-btn-task {
+    background-color: coral;
+    border: 1px solid coral;
+    color: #fff;
+    font-size: 12px;
+    height: 40px;
+    width: 80px;
+    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+.use-btn-task:hover{
+    background-color: #fca687;
+    border: 1px solid #fca687;
+}
+
+.task {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    border: 2px solid #ff6602;
+    border-radius: 10px;
+}
+
+.strike {
+    background-color: #abffab;
+}
+
+.set_task {
+    display: flex;
+}
+
+.add_task_btn {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ff6602;
+    border: 1px solid #ffb254;
+    color: #fff;
+    font-weight: 200;
+    text-transform: uppercase;
+    font-size: 12px;
+    height: 30px;
+    width: 20%;
+}
+.add_task_btn:hover{
+    background-color: #ffb779;
+    border-color: #ffb779;
+}
